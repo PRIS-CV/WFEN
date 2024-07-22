@@ -10,7 +10,7 @@ I have trained and tested the codes on
 - Python 3.8, install required packages by `pip install -r requirements.txt`
 
 ## Getting Started
-Download Our Pretrain Models and Test Dataset. Additionally, we produce our FSR results in orginal paper.
+Download Our Pretrain Models and Test Dataset. Additionally, we offer our FSR results in orginal paper.
 #### Note：Test results are slightly different from the original paper because the model weights were obtained by re-training after organizing our codes.
 - [Pretrain_Models]()  
 - [Test_Datasets](https://drive.google.com/file/d/1EW-DZvmIPzMQcYrrwspODoKgFA0oBeR2/view?usp=drive_link)
@@ -35,7 +35,7 @@ python test.py --gpus 1 --model wfen --name wfen \
 ```
 
 ### Evaluation
-We provide evaluation codes in script `test.sh` for calculate PSNR/SSIM/LPIPS/VIF/Parmas/FLOPs. Additionally, you can 
+We provide evaluation codes in script `test.sh` for calculate PSNR/SSIM/LPIPS/VIF/Parmas/FLOPs scores.
 
 
 ### Train the Model
