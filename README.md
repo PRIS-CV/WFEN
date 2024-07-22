@@ -16,7 +16,7 @@ Download Our Pretrain Models and Test Dataset
 
 ### Test with Pretrained Models
 
-# On CelebA Test set
+#### On CelebA Test set
 ```
 python test.py --gpus 1 --model wfen --name wfen \
     --load_size 128 --dataset_name single --dataroot /path/to/datasets/test_datasets/CelebA1000/LR_x8_up/ \
@@ -24,7 +24,7 @@ python test.py --gpus 1 --model wfen --name wfen \
     --save_as_dir results_celeba/wfen
 ```
 
-# On Helen Test set
+#### On Helen Test set
 ```
 python test.py --gpus 1 --model wfen --name wfen \
     --load_size 128 --dataset_name single --dataroot /path/to/datasets/test_datasets/Helen50/LR_x8_up/ \
@@ -44,7 +44,7 @@ The commands used to train the released models are provided in script `train.sh`
 - If there's not enough memory, you can turn down the `--batch_size`.
 - `--gpus` specify number of GPUs used to train. The script will use GPUs with more available memory first. To specify the GPU index, uncomment the `export CUDA_VISIBLE_DEVICES=`.
 
-# Train Code
+#### Train Code
 ```
 CUDA_VISIBLE_DEVICES=0,1 python train.py --gpus 2 --name wfen --model wfen \
     --Gnorm "bn" --lr 0.0002 --beta1 0.9 --scale_factor 8 --load_size 128 \
