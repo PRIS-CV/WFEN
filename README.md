@@ -1,7 +1,7 @@
 
 ## Efficient Face Super-Resolution via Wavelet-based Feature Enhancement Network (ACMMM 2024)
 
-[Paper (Arxiv)](https://arxiv.org/pdf/2407.19768) | [Supplementary Material](https://drive.google.com/file/d/1BONiSAVKTvsLkeHLBCbwyIv7XSfbJRQa/view?usp=sharing) | [Project Page]() 
+[Paper (Arxiv)](https://arxiv.org/pdf/2407.19768) | [Supplementary Material](https://drive.google.com/file/d/1BONiSAVKTvsLkeHLBCbwyIv7XSfbJRQa/view?usp=sharing) | [Project Page](https://24wenjie-li.github.io/projects/WFEN/index.html) 
 
 ## Installation and Requirements 
 I have trained and tested the codes on
