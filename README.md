@@ -40,7 +40,7 @@ We provide evaluation codes in script `test.sh` for calculate PSNR/SSIM/LPIPS/VI
 
 ### Train the Model
 The commands used to train the released models are provided in script `train.sh`. Here are some train tips:
-- You should download [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) to train WFEN. Please change the `--dataroot` to the path where your training images are stored.  
+- You should download [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) to train WFEN. Please change the `--dataroot` to the path where your training images are stored. Or you can download [our processed data](https://drive.google.com/file/d/1tq-BS72ukw-gdHro--EWTwZA7bGxfbWY/view?usp=sharing).
 - To train WFEN, we simply crop out faces from CelebA without pre-alignment, because for ultra low resolution face SR, it is difficult to pre-align the LR images.  
 - Please change the `--name` option for different experiments. Tensorboard records with the same name will be moved to `check_points/log_archive`, and the weight directory will only store weight history of latest experiment with the same name.
 - If there's not enough memory, you can turn down the `--batch_size`.
