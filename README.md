@@ -13,8 +13,7 @@ I have trained and tested the codes on
 Download Our Pretrain Models and Test Dataset. Additionally, we offer our FSR results in orginal paper.
 #### Note：Test results are slightly different from the original paper because the model weights were obtained by re-training after organizing our codes.
 - [Pretrain_Models](https://drive.google.com/file/d/1YTVf_xK1Ua21zfEUfw3tDQTmbsF3Ld4k/view?usp=drive_link)  
-- [Test_Datasets (LR)](https://drive.google.com/file/d/1EW-DZvmIPzMQcYrrwspODoKgFA0oBeR2/view?usp=drive_link)
-- [Test_Datasets (HR)](https://drive.google.com/file/d/1M5XQUH5tU7gBT-TvdyN7m3ZYtFr3OHLn/view?usp=drive_link)
+- [Test_Datasets (LR-HR)](https://drive.google.com/file/d/1afzGlAKXt9_g09ToIT95B3mM6Fxv8wXw/view?usp=sharing)
 - [FSR_Results_in_Orginal_Paper](https://drive.google.com/file/d/136DlSB1FvI8timRgDL1WRIx8JyKvtwdO/view?usp=drive_link)
 
 ### Test with Pretrained Models
